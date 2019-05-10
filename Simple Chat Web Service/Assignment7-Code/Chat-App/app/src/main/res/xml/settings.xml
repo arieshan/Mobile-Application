@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <EditTextPreference
+        android:key="app-id"
+        android:title="@string/app_id_pref"
+        android:summary="@string/app_id_summary"
+        android:enabled="false"
+        android:selectable="false"
+        android:persistent="false"
+        android:shouldDisableView="false"/>
+    <EditTextPreference
+        android:key="sender-id"
+        android:title="@string/sender_id_pref"
+        android:summary="@string/sender_id_summary"
+        android:enabled="false"
+        android:selectable="false"
+        android:persistent="false"
+        android:shouldDisableView="false"/>        />
+    <EditTextPreference
+        android:key="user-name"
+        android:title="@string/user_name_pref"
+        android:summary="@string/user_name_summary"
+        android:defaultValue="@string/user_name_default"
+        android:enabled="false"
+        android:selectable="false"
+        android:persistent="false"
+        android:shouldDisableView="false"/>
+</PreferenceScreen>

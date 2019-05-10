@@ -1,0 +1,31 @@
+Mar 24, 2019 5:20:29 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: Starting HTTP server...
+Mar 24, 2019 5:20:30 PM org.glassfish.grizzly.http.server.NetworkListener start
+INFO: Started listener bound to [192.168.0.96:8080]
+Mar 24, 2019 5:20:30 PM org.glassfish.grizzly.http.server.HttpServer start
+INFO: [HttpServer] Started.
+Mar 24, 2019 5:20:30 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: Listening at http://192.168.0.96:8080
+Mar 24, 2019 5:20:30 PM edu.stevens.cs522.chat.webservice.Main info
+INFO: Service available at http://192.168.0.96:8080/chat
+Hit enter to stop...
+Mar 24, 2019 5:20:36 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Received registration request (client=e3d2d87e-9005-4fc7-99e5-dc78189504b7, username=Xiaohan, timestamp=1553473235615, latitude=0.0, longitude=0.0)
+Mar 24, 2019 5:20:36 PM edu.stevens.cs522.chat.webservice.ChatResource register
+INFO: Successfully registered user Xiaohan with UUID e3d2d87e-9005-4fc7-99e5-dc78189504b7.
+Mar 24, 2019 5:20:47 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 1)
+Mar 24, 2019 5:20:47 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message hello (chatroom 1)
+Mar 24, 2019 5:21:02 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 1)
+Mar 24, 2019 5:21:02 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message hello again (chatroom 1)
+Mar 24, 2019 5:21:06 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received postMessage request (id = 1)
+Mar 24, 2019 5:21:06 PM edu.stevens.cs522.chat.webservice.ChatResource postMessage
+INFO: Received message hi (chatroom 1)
+Mar 24, 2019 5:21:27 PM edu.stevens.cs522.chat.webservice.ChatResource messages
+INFO: DEBUG: Received getMessages  request
+Mar 24, 2019 5:21:27 PM edu.stevens.cs522.chat.webservice.ChatResource$2 write
+INFO: DEBUG: Listed all messages)
